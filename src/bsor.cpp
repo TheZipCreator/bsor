@@ -4,6 +4,8 @@
 #include <stdexcept>
 #include <algorithm>
 
+// The main BSOR parser (this is probably what you want to include in your project)
+
 namespace bsor {
 	static uint8_t read_byte(std::istream &stream) {
 		char b;

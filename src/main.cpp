@@ -5,6 +5,8 @@
 #include "main.hpp"
 #include "bsor.hpp"
 
+// Simple program that reads a BSOR file and outputs info about it.
+
 int main(int argc, char **argv) {
 	if(argc == 1) {
 		std::cout << "Usage: " << argv[0] << " <BSOR file> [events]" << std::endl;

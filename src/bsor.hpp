@@ -6,6 +6,9 @@
 #include <variant>
 #include <optional>
 
+// The main BSOR parser (this is probably what you want to include in your project)
+// see the BSOR documentation for what the field names mean
+
 namespace bsor {
 	// Vector
 	struct Vector {
